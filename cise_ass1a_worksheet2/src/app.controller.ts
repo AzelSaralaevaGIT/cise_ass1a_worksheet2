@@ -1,7 +1,6 @@
 import { Controller, Get, Param } from '@nestjs/common';
 import { AppService } from './app.service';
 import { ARTICLES } from './dummydata/articles';
-import { get } from 'http';
 
 @Controller()
 export class AppController {
